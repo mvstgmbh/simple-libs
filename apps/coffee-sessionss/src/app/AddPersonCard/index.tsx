@@ -3,14 +3,11 @@ import { FlexCol, Box } from '../components/box';
 import { Text } from '../components/typographies';
 import { Button } from '../components/button';
 import { Input } from '../components/input';
-import zu from '../../translations/zu.json';
-
-export const translate = (key) => _.get(zu, key);
 
 const t = (c: string) => {
   const translations = {
     caption: 'Add',
-    title: translate('title'),
+    title: 'title',
     description:
       'The participant, together with others, will be sorted in pairs to attend the coffee',
   } as any;
