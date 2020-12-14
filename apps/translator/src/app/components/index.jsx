@@ -112,7 +112,7 @@ export const OutputJson = ({ onUploadComplete }) => {
   );
 };
 
-export const Reveal: React.FC<{ isOpen: boolean }> = ({ children, isOpen }) => (
+export const Reveal = ({ children, isOpen }) => (
   <motion.div
     initial={{ opacity: 0 }}
     transition={{ duration: 0.3, delay: 0 }}
